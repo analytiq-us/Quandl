@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: QuandlZILLOW-Node extension for KNIME Workbench
+Bundle-SymbolicName: org.zillow; singleton:=true
+Bundle-Version: 1.0.0
+Bundle-ClassPath: quandlzillow.jar
+Bundle-Activator: org.zillow.QuandlZILLOWNodePlugin
+Bundle-Vendor: sai sampreeth
+Require-Bundle: org.eclipse.core.runtime,
+ org.knime.workbench.core,
+ org.knime.workbench.repository,
+ org.knime.base
+Bundle-ActivationPolicy: lazy
+Export-Package: org.zillow
+

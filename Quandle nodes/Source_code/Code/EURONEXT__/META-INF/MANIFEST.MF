@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: QuandlEuronext__-Node extension for KNIME Workbench
+Bundle-SymbolicName: org.ruronext; singleton:=true
+Bundle-Version: 1.0.0
+Bundle-ClassPath: quandleuronext__.jar
+Bundle-Activator: org.ruronext.QuandlEuronext__NodePlugin
+Bundle-Vendor: heng chi
+Require-Bundle: org.eclipse.core.runtime,
+ org.knime.workbench.core,
+ org.knime.workbench.repository,
+ org.knime.base
+Bundle-ActivationPolicy: lazy
+Export-Package: org.ruronext
+

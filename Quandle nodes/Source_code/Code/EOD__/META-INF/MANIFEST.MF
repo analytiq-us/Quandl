@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: QuandlEod__-Node extension for KNIME Workbench
+Bundle-SymbolicName: org.eod; singleton:=true
+Bundle-Version: 1.0.0
+Bundle-ClassPath: quandleod__.jar
+Bundle-Activator: org.eod.QuandlEod__NodePlugin
+Bundle-Vendor: I tang lo
+Require-Bundle: org.eclipse.core.runtime,
+ org.knime.workbench.core,
+ org.knime.workbench.repository,
+ org.knime.base
+Bundle-ActivationPolicy: lazy
+Export-Package: org.eod
+
